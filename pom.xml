@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.colorcc.study</groupId>
 	<artifactId>git-helloworld</artifactId>
-	<version>1.0.0</version>
+	<version>1.1.0-SNAPSHOT</version>
 	<name>Git hello world sample</name>
 
 	<description>Hello world sample for git study.</description>
@@ -58,6 +58,32 @@
 			<version>${maven.junit.version}</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- ============ Log dependency: start =============== -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.6.1</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jcl-over-slf4j</artifactId>
+			<version>1.6.1</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.6.1</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.16</version>
+			<scope>compile</scope>
+		</dependency>
+		<!-- =========== Log dependency: end =================== -->
 	</dependencies>
 	<build>
 		<plugins>
