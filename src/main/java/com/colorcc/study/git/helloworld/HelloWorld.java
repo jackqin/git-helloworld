@@ -15,6 +15,7 @@ public class HelloWorld {
 		// TODO Auto-generated method stub
 		logger.info("use log for hello world project!");
 		System.out.println("Hello World!");
+		// delete blank line
 	}
 
 }
