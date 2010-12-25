@@ -9,6 +9,7 @@ public class HelloWorld {
 	private final static Logger logger = LoggerFactory.getLogger(HelloWorld.class);
 
 	/**
+	 * Add by qtj
 	 * @param args
 	 */
 	public static void main(String[] args) {
